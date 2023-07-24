@@ -1,0 +1,21 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(14deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 41%, rgba(0,212,255,1) 100%);
+}
+.div-btn{
+    right: 50%;
+    bottom: 50%;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+}
+.btn-passive{
+    border: none;
+    display: grid;
+}
+.btn-active{
+    border: none;
+    display: none;
+}
